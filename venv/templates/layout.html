@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+.blockpurple {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #7D3C98;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.blockgreen {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #27AE60;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.blockblue {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #2980B9;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.blockorange {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #E67E22;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.blockred {
+  display: block;
+  width: 100%;
+  border: none;
+  background-color: #922B21;
+  color: white;
+  padding: 14px 28px;
+  font-size: 16px;
+  cursor: pointer;
+  text-align: center;
+}
+.block:hover {
+  background-color: #ddd;
+  color: black;
+}
+    </style>
+    <meta charset="UTF-8">
+    <title>MyFlaskApp</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+</head>
+<body>
+    {% include 'includes/_navbar.html' %}
+    <div class="container">
+        {% block body %}{% endblock %}
+    </div>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js">
+</script>
+</body>
+</html>
